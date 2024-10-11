@@ -15,10 +15,8 @@ b=[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 if (n%2!=0):
     print("Weird")
 elif (n%2==0)and n in a:
-     
-         print("Not Weird")
+    print( "Not Weird")
 elif (n%2==0)and n in b:
-     for n in range(6,20):
-         print( "Weird")
+    print( "Weird")
 elif (n%2==0)and n>20:
     print("Not Weird")
